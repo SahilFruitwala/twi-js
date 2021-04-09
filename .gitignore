@@ -1,0 +1,5 @@
+.env
+node_modules
+twitter-api-fetch
+temp.json
+temp1.json
