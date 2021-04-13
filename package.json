@@ -1,6 +1,6 @@
 {
   "name": "twi-js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Package for Twitter API.",
   "main": "lib/index.js",
   "scripts": {
