@@ -64,6 +64,8 @@ media_filters: {
 }
 
 query_filters: {  
+   to: string | undefined, // pass twitter username
+   from: string | undefined, // pass twitter username
    retweets: boolean | undefined,  
    replies: boolean | undefined,  
    verified: boolean | undefined  
