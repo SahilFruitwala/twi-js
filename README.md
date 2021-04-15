@@ -114,4 +114,18 @@ Here, where undefined is mentioned it states that one can ignore that parameter.
    - If we want any hashtag (or both): **#javascript OR #webdev**
 
 ---
+
+### TODO
+
+- [ ] Add More Filters
+- [ ] Add Test
+- [ ] Add Comments
+- [ ] More Documentation
+- [x] Base Upload
+- [x] Some Filters
+- [x] Basic Github Automation
+- [x] Manual Testing
+
+---
+
 If you want to learn more about these filters and parameter you can read the following [blog](https://blog.learncodeonline.in/introduction-to-twitter-api).

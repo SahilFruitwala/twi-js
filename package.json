@@ -1,7 +1,7 @@
 {
   "name": "twi-js",
   "version": "0.2.4",
-  "description": "Package for Twitter API.",
+  "description": "Small library wrapped around Twitter Search(Rest) API containing many filters and options.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,9 @@
   "devDependencies": {
     "dotenv": "^8.2.0"
   },
-  "homepage": "https://github.com/SahilFruitwala/twi-js.git#readme"
+  "homepage": "https://github.com/SahilFruitwala/twi-js.git#readme",
+  "bugs": "https://github.com/SahilFruitwala/twi-js/issues",
+  "files": [
+    "lib/*.js"
+  ]
 }
