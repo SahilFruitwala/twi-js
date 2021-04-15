@@ -6,7 +6,7 @@
 npm install twi-js
 ```
 
-## Loading and configuring the module
+## Configuring Module
 
 ```javascript
 const Twitter = require("twi-js");
@@ -18,30 +18,23 @@ const Twitter = require("twi-js");
 
 ```javascript
 try {
-  
+   
   const twitter = new Twitter(search_keywords, bearer_token, pages, options);
-
   twitter.fetchData();
 
 } catch (error) {
-  
   console.log(error);
-
 }
 ```
 
 #### Arguments
 
-1. search_keywords  
-   list of all keywords, hashtags 2. and users
-2. bearer_token  
-   Beare token
-3. pages  
-   number of times you want to search
-4. options  
-   options contains lot of filters
+1. search_keywords: List of all keywords, hashtags and users
+2. bearer_token: Beare token
+3. pages: Number of times you want to search
+4. options: Options contains lot of filters
 
-Options Arguments
+#### Options Argument
 
 Options is an object which contains other objects and values. Options contains following properties:
 
@@ -53,13 +46,14 @@ Options is an object which contains other objects and values. Options contains f
    * result_type
    * lang
    * until
+   * tweet_mode
    * geocode
 
 Above mentioned all are optional parameters. search_keywords, bearer_token and pages are only required parameters.
 
 ---
 
-#### Parameters and their values
+#### Parameters and Values
 
 ``` javascript  
 
@@ -95,11 +89,11 @@ Here, where undefined is mentioned it states that one can ignore that parameter.
 
 ---
 
-### How To:
+### How To
 
 1. How to search for word group:
+   To search *google developers club*, pass **'"google developers club"'**
    - Pass keywords wrapped around double quotes
-   - To search *google developers club*, pass **'"google developers club"'**
    - What signle quotes do is consider *"google developers club"* as a string
    - Double quotes are for internal recognition of grouping
 
@@ -117,4 +111,5 @@ Here, where undefined is mentioned it states that one can ignore that parameter.
    - If we want both hashtags: **#javascript AND #webdev** or **#javascript #webdev**
    - If we want any hashtag (or both): **#javascript OR #webdev**
 
+---
 If you want to learn more about these filters and parameter you can read the following [blog](https://blog.learncodeonline.in/introduction-to-twitter-api).
