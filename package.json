@@ -1,6 +1,6 @@
 {
   "name": "twi-js",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Small library wrapped around Twitter Search(Rest) API containing many filters and options.",
   "main": "lib/index.js",
   "scripts": {
